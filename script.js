@@ -10,6 +10,7 @@ var confirmSpecialCharacters;
 var confirmNumbers;
 var confirmUpperCase;
 var confirmLowerCase;
+var passwordCharacters = "";
 
 function generatePassword() {
     var confirmLength = (prompt("How many characters would you like to use for your password? (Your number must be between 8 and 128 characters)"));
